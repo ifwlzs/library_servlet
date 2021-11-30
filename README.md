@@ -62,7 +62,7 @@ reader，admin：5-7
 
 系统大致模块如下：
 
-![系统功能模块](D:/MyCode/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/%E5%9B%BE%E4%B9%A6%E9%A6%86-%E7%B3%BB%E7%BB%9F%E6%A8%A1%E5%9D%97.png)
+![系统功能模块](https://gitee.com/ifwlzs/img/raw/master/img/%E5%9B%BE%E4%B9%A6%E9%A6%86-%E7%B3%BB%E7%BB%9F%E6%A8%A1%E5%9D%97.png)
 
 错误页面跳转模块：当用户访问不存在的页面，会跳到本系统默认的404页面，当执行错误操作导致服务器500错误时，也会跳到本系统配套的500页面。
 
@@ -78,13 +78,13 @@ reader，admin：5-7
 
 E-R模型如图所示:
 
-![E-R模型](D:/MyCode/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/%E5%9B%BE%E4%B9%A6%E9%A6%86-ER.png)
+![E-R模型](https://gitee.com/ifwlzs/img/raw/master/img/%E5%9B%BE%E4%B9%A6%E9%A6%86-ER.png)
 
 ## 2.3 数据库设计
 
 数据库设计如图所示：
 
-![数据库设计](C:/Users/wlzs/AppData/Roaming/Typora/typora-user-images/image-20211102110102235.png)
+![数据库设计](https://gitee.com/ifwlzs/img/raw/master/img/image-20211102110102235.png)
 
 # 三、详细设计
 
@@ -94,21 +94,21 @@ E-R模型如图所示:
 
 登录包括注册和登录部分。当用户未输入时，只能点击前往注册，点击登录会弹窗提示“未输入必填项以及未完成滑块认证”。
 
-![登录界面](C:/Users/wlzs/AppData/Roaming/Typora/typora-user-images/image-20211104133351589.png)
+![登录界面](https://gitee.com/ifwlzs/img/raw/master/img/image-20211104133351589.png)
 
 点击前往注册。可以看到注册页面。再注册界面中，加入了空值、用户ID、邮箱、电话等关键值的判断。保证用户输入的字符，符合注册要求后在向后端发送注册请求。
 
-![注册页面](C:/Users/wlzs/AppData/Roaming/Typora/typora-user-images/image-20211104135401687.png)
+![注册页面](https://gitee.com/ifwlzs/img/raw/master/img/image-20211104135401687.png)
 
 登录后，系统会根据用户ID自动判别用户类别，如果是r开头的，为读者登录，如果是m开头的则为管理员。若登录出错会返回错误信息
 
-![登录出错](C:/Users/wlzs/AppData/Roaming/Typora/typora-user-images/image-20211104141151168.png)
+![登录出错](https://gitee.com/ifwlzs/img/raw/master/img/image-20211104135401687.png)
 
 ### 3.1.2 读者模块
 
 读者模块分为三小块。右边为导航栏，包括两个功能，分别是查询馆藏书籍和查询自己的借阅记录。右边为刷新，登出和编辑个人信息功能。
 
-![读者模块首页](C:/Users/wlzs/AppData/Roaming/Typora/typora-user-images/image-20211104141402326.png)
+![读者模块首页](https://gitee.com/ifwlzs/img/raw/master/img/image-20211104141402326.png)
 
 ### 3.1.2.1 编辑个人信息
 
@@ -130,7 +130,9 @@ E-R模型如图所示:
 
 ![查询个人借阅记录](https://gitee.com/ifwlzs/img/raw/master/img/image-20211104144147271.png)
 
-表格中也可以根据书籍ID查询书籍详情。	![查询书籍详情](https://gitee.com/ifwlzs/img/raw/master/img/image-20211104144147271.png)
+表格中也可以根据书籍ID查询书籍详情。	
+
+![查询书籍详情](https://gitee.com/ifwlzs/img/raw/master/img/image-20211104144147271.png)
 
 点击“归还”按钮会提示图书馆开放时间。
 
@@ -156,7 +158,9 @@ E-R模型如图所示:
 
 ![书籍管理](https://gitee.com/ifwlzs/img/raw/master/img/image-20211104143513322.png)
 
-编辑界面中，对库存总量进行了安全安全判断，使得库存永远大于等于借出数量。并且说定了借出数量，让还书操作在借阅管理中进行。![编辑书籍](https://gitee.com/ifwlzs/img/raw/master/img/image-20211104143513322.png)
+编辑界面中，对库存总量进行了安全安全判断，使得库存永远大于等于借出数量。并且说定了借出数量，让还书操作在借阅管理中进行。
+
+![编辑书籍](https://gitee.com/ifwlzs/img/raw/master/img/image-20211104143513322.png)
 
 ### 3.2.3 借阅记录管理
 
@@ -180,9 +184,9 @@ E-R模型如图所示:
 
 当输入不存在的页面，以及当服务器发生错误时，页面会跳转对应的错误页面。
 
-![404页面](C:/Users/wlzs/AppData/Roaming/Typora/typora-user-images/image-20211104152031015.png)
+![404页面](https://gitee.com/ifwlzs/img/raw/master/img/image-20211104152031015.png)
 
-![服务器错误](C:/Users/wlzs/AppData/Roaming/Typora/typora-user-images/image-20211104152219348.png)
+![服务器错误](https://gitee.com/ifwlzs/img/raw/master/img/image-20211104152219348.png)
 
 # 结论
 
