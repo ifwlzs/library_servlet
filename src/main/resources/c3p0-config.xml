@@ -1,0 +1,18 @@
+<c3p0-config>
+    <!-- 使用默认的配置读取连接池对象 -->
+    <default-config>
+        <!--  连接参数 -->
+        <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/library?useSSL=false&amp;serverTimezone=Hongkong&amp;characterEncoding=utf-8&amp;autoReconnect=true</property>
+        <property name="user">root</property>
+        <property name="password">root</property>
+
+        <!-- 连接池参数 -->
+        <!-- 初始化申请的链接数量 -->
+        <property name="initialPoolSize">5</property>
+        <!-- 最大的申请数量 -->
+        <property name="maxPoolSize">10</property>
+        <!-- 超时时间 -->
+        <property name="checkoutTimeout">3000</property>
+    </default-config>
+</c3p0-config>
