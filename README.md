@@ -1,5 +1,6 @@
 # library_servlet
-java8+c3p0+servlet+jsp+DBUtils+Xadmin实现图书馆管理系统
+
+java8 + servlet + jsp + MySQL8.0.17 + c3p0 + DBUtils + Xadmin 实现图书馆管理系统
 
 # 一、要求
 
