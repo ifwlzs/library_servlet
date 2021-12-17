@@ -10,6 +10,18 @@ tomcat部署的应用程序上下文为 `/`
 
 ![应用程序上下文](https://user-images.githubusercontent.com/49548316/146531688-791893ce-ea34-4b69-b072-55c339ef71c0.png)
 
+本idea项目的编码为utf8，请自行更改相关配置
+
+>Idea配置：File–>Settings–>File Encodings–>Project Encoding 
+>
+>Windows下默认的是GBK,tomcat配置界面：添加虚拟机启动参数：-Dfile.encoding=UTF-8 
+>
+>控制台乱码 
+>修改idea中的vm参数
+>添加一条配置信息：-Dfile.encoding=UTF-8 
+>
+>tomcat全设置为utf8
+
 
 # 一、要求
 
