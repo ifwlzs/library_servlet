@@ -2,6 +2,15 @@
 
 java8 + servlet + jsp + MySQL8.0.17 + c3p0 + DBUtils + Xadmin 实现图书馆管理系统
 
+# 用前须知
+
+sql存放在 `src/main/resources/`目录下
+
+tomcat部署的应用程序上下文为 `/`
+
+![应用程序上下文](https://user-images.githubusercontent.com/49548316/146531688-791893ce-ea34-4b69-b072-55c339ef71c0.png)
+
+
 # 一、要求
 
 > 系统要实现如下的基本管理功能：
