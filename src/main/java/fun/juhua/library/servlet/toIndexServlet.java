@@ -27,7 +27,7 @@ public class toIndexServlet extends HttpServlet {
                 request.getRequestDispatcher("/admin/index.jsp").forward(request, response);
             } else {
 //                System.out.println("reader");
-                request.getRequestDispatcher("/admin/index.jsp").forward(request, response);
+                request.getRequestDispatcher("/reader/index.jsp").forward(request, response);
             }
         } else {
             response.sendRedirect("/login.jsp");
