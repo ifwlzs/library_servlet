@@ -76,7 +76,7 @@ reader，admin：5-7
 |  25  | /admin/DeleteAdminServlet     | 删除管理员信息                         | /admin/adminList.jsp  |                        |                     | admin                      |
 |  26  | /admin/AddBorrowServlet       | 管理员借书                             | /admin/addBorrow.jsp  |                        |                     | admin                      |
 |  27  | /admin/AddBookServlet         | 管理员加书                             | /admin/addBook.jsp    |                        |                     | admin                      |
-|  28  | /admin/RegisterAdminServlet   | 管理员注册管理员                       | /admin/addAdmin.jsp   |                        |                     | 三、 总体设计三、 总体设计 |
+|  28  | /admin/RegisterAdminServlet   | 管理员注册管理员                       | /admin/addAdmin.jsp   |                        |                     | admin |
 
 # 二、 总体设计
 
