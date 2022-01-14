@@ -2,6 +2,10 @@
 
 java8 + servlet + jsp + MySQL8.0.17 + c3p0 + DBUtils + Xadmin 实现图书馆管理系统
 
+# 关于
+
+Spring Boot版本：[https://github.com/ifwlzs/library_springboot](https://github.com/ifwlzs/library_springboot)
+
 # 用前须知
 
 sql存放在 `src/main/resources/`目录下
